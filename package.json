@@ -17,6 +17,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "standard": {
+    "*.js": [
+      "standard --fix"
+    ]
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
